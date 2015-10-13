@@ -6,13 +6,14 @@ Very simple React server rendering example.
 
 ```
 $ npm install -g babel
+$ npm install -g browserify
 $ npm install
 ```
 
 ## Build / Run
 
 ```
-$ babel *.jsx -d . && node app.js
+$ ./build.sh
 ``` 
 
 ## On browser
