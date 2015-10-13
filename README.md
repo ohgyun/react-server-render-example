@@ -14,3 +14,6 @@ $ npm install
 ```
 $ babel *.jsx -d . && node app.js
 ``` 
+
+## On browser
+Open [http://localhost:3000/](http://localhost:3000/)
