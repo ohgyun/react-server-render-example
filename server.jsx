@@ -1,4 +1,3 @@
-import path from 'path';
 import express from 'express';
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
@@ -21,7 +20,7 @@ app.get('/', (req, res) => {
     html += `<script>window.initialCount = ${initialCount};</script>`;
 
     html += '<script src="/js/client.js"></script>';
- 
+
     html += '</body></html>';
 
     res.send(html);
